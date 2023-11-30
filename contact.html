@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework01_contact</title>
+    <style>
+        form {
+            width: max-content;
+            border-radius: 5%;
+            padding: 8%;
+            border: 1px solid black;
+        }
+        input,select,textarea {
+            width: 100%;
+        }
+        .button {
+            width: fit-content;
+        }
+    </style>
+</head>
+<body>
+    <p>
+        <a href="./index.html">Home</a> |
+        <a href="./education.html">Education</a> |
+        <a href="./work.html">Work Experience</a> |
+        <a href="./contact.html">Contact Me</a> |
+    </p>
+    <hr>
+    <h1>Contact Me</h1>
+    <form action="">
+            <p>Enter your info.</p>
+            <label for="name">Your Name</label><br>
+            <input type="text" id="name"><br><br>
+            <label for="email">Your E-mail</label><br>
+            <input type="text" id="email"><br><br>
+            <label for="gender">Gender</label><br>
+            <select name="gender" id="gender">
+                <option value="">select..</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+            </select><br><br>
+            <label for="message">Message</label><br>
+            <textarea name="message" id="message" cols="30" rows="10"></textarea><br><br>
+            <input class="button" type="submit" value="Submit">
+            <input class="button" type="reset" value="Reset"><br><br>
+    </form>
+</body>
+</html>
